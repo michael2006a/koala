@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="auth-service-api" />
+        <module name="common-config" />
+        <module name="common-core" />
+        <module name="common-feign" />
+        <module name="common-log" />
+        <module name="common-security" />
+        <module name="config-service" />
+        <module name="exam-service" />
+        <module name="exam-service-api" />
+        <module name="gateway-service" />
+        <module name="monitor-service" />
+        <module name="msc-service" />
+        <module name="msc-service-api" />
+        <module name="user-service" />
+        <module name="user-service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
+      <module name="auth-service-api" target="1.8" />
+      <module name="auth-service-parent" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-config" target="1.8" />
+      <module name="common-core" target="1.8" />
+      <module name="common-feign" target="1.8" />
+      <module name="common-log" target="1.8" />
+      <module name="common-security" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="exam-service" target="1.8" />
+      <module name="exam-service-api" target="1.8" />
+      <module name="exam-service-parent" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="koala" target="1.8" />
+      <module name="modules" target="1.8" />
+      <module name="monitor-service" target="1.8" />
+      <module name="msc-service" target="1.8" />
+      <module name="msc-service-api" target="1.8" />
+      <module name="msc-service-parent" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="user-service-api" target="1.8" />
+      <module name="user-service-parent" target="1.8" />
+      <module name="zipkin-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
